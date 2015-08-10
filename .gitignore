@@ -1,0 +1,9 @@
+# c objects
+*.o
+
+# project files
+*.sublime-*
+
+# binary stuffs
+AdhocServer
+*.db
