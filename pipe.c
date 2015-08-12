@@ -30,7 +30,6 @@ int pd = -1;
 
 int create_pipe()
 {
-  printf("create_pipe()\n");
   if (mkfifo(PIPE_NAME, 0666) == -1) // read/write for all
   {
     if (errno != EEXIST)
